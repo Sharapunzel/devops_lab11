@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: devops-psu-server
-        image: slimalim275/devops-psu:latest
+        image: tapp
         imagePullPolicy: IfNotPresent
         ports: 
         - containerPort: 8000
