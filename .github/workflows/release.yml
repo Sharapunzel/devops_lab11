@@ -37,7 +37,7 @@ jobs:
     
       - name: Commit manifest
         run: |
-          git config --globaluser.name 'ReleaseRunner'
-          git config --globaluser.email 'runner@users.noreply.github.com'
+          git config --global user.name 'ReleaseRunner'
+          git config --global user.email 'runner@users.noreply.github.com'
           git commit -am "Release"
           git push --force origin main:release
